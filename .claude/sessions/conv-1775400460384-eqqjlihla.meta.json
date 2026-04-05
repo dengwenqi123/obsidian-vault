@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775400460384-eqqjlihla",
+  "title": "Begin session",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775400460387,
+  "updatedAt": 1775400910554,
+  "lastResponseAt": 1775400910554,
+  "sessionId": "e6e3b298-fba0-452c-b15e-5a99f3121447",
+  "sdkSessionId": "e6e3b298-fba0-452c-b15e-5a99f3121447",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 4588,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4588,
+    "percentage": 2
+  }
+}
