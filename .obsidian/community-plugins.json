@@ -3,5 +3,7 @@
   "claudian",
   "obsidian-git",
   "obsidian-tasks-plugin",
-  "obsidian-day-planner"
+  "obsidian-day-planner",
+  "templater-obsidian",
+  "obsidian-excalidraw-plugin"
 ]
