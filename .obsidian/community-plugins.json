@@ -1,5 +1,7 @@
 [
   "open-in-terminal",
   "claudian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-tasks-plugin",
+  "obsidian-day-planner"
 ]
