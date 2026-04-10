@@ -19,6 +19,8 @@ Superpowers 解决的，就是这类问题。
 
 它不是靠一句更强的 prompt 去赌模型状态，而是把整套流程拆成一批可调用的技能：
 
+**核心工作流（7 个）：**
+
 -   • `brainstorming`：先把需求问清楚，再给方案和设计
     
 -   • `writing-plans`：把实现计划拆成可执行的小任务
@@ -32,6 +34,22 @@ Superpowers 解决的，就是这类问题。
 -   • `using-git-worktrees`：隔离分支和工作区，避免互相踩
     
 -   • `finishing-a-development-branch`：最后决定合并、发 PR 还是保留分支
+
+**容易被忽略但同样重要的另外 7 个：**
+
+-   • `systematic-debugging`：4 阶段根因分析（观察 → 模式识别 → 假设验证 → 实施修复），铁律是"没有完成根因调查，不允许提出修复方案"。官方数据称系统化调试 15-30 分钟解决问题，随机修复要 2-3 小时
+    
+-   • `verification-before-completion`：在宣布"完成"之前，必须证明修复确实生效，防止"我觉得修好了"的自欺欺人
+    
+-   • `dispatching-parallel-agents`：面对 3 个以上独立故障时，每个问题域派一个 agent 并行调查，比串行快一个数量级
+    
+-   • `executing-plans`：按批次推进计划，保留人工检查点，和 `subagent-driven-development` 是两种不同的执行策略
+    
+-   • `receiving-code-review`：不只是发起 review，还规范了如何接收和响应 review 反馈
+    
+-   • `using-superpowers`：元技能，教 agent 如何发现和使用其他 skill，是整个框架的引导入口
+    
+-   • `writing-skills`：把 TDD 应用到 skill 本身的编写上——先写压力测试场景，观察 agent 失败，再写最小化的 SKILL.md，然后堵住 agent 可能的"合理化借口"
     
 
 说白了，Superpowers 想做的不是“让 AI 一口气写完代码”。而是让 AI 像一个流程严格、习惯良好的工程团队那样工作。
