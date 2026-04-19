@@ -33,3 +33,5 @@ select * from vela_test_verification_session where session_id  = 'vs-20260411-90
 2.  需要重新安装python 的依赖库
 
 pip install 'starlette>=0.37.2,<0.39.0' 
+
+git config --global --add safe.directory /tools/ai-agent-service/prompts
