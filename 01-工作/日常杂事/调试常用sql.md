@@ -27,3 +27,7 @@ select * from vela_test_verify_record where workflow_id = 'cw-20260411-ff4062';
 
 select * from vela_test_verification_session where session_id  = 'vs-20260411-907d33';
 ```
+
+# 更新点
+1. 默认模型都更新为 4.7
+2.  需要重新安装python 的依赖库
