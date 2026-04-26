@@ -35,3 +35,5 @@ select * from vela_test_verification_session where session_id  = 'vs-20260411-90
 pip install 'starlette>=0.37.2,<0.39.0' 
 
 git config --global --add safe.directory /tools/ai-agent-service/prompts
+
+1. 请问现在 AI 分析，创建的jira  assign 给谁呢，规则是怎样的
