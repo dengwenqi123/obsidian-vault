@@ -13,3 +13,4 @@
 
 
 在页面没有显示 gerrit patch(patch_urls) 的查看按钮 ["https://cnbj1-fds.api.xiaomi.net/ai-analysis/sessions/ds-20260427-153756-001/patches/tests__tools__vtf__tests/tests__tools__vtf__tests__0001-test-ltp-retry-ltp_interfaces_sem_post_6_1-on-flaky-.patch"]
+将 vela_test_debug_patch 表中失败的 重跑，完成，更新好数据，写一个脚本我能在线上执行。
