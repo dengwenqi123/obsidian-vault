@@ -7,4 +7,5 @@ SELECT w.* FROM vela_test_workflow w
 
 1. 需要跑通耳机项目的自动化分析流程
 2. 需要区分本地环境和线上环境
-3. 
+3.  列出最近解bug 所有的任务清单
+4. 
