@@ -45,3 +45,7 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 2. pip install -U lief-0.17.0.dev0-cp310-cp310-linux_x86_64.whl
 
 优先看是不是项目代码是否有问题，如果被测代码没有问题，在开始检查是否是测试用例的问题。
+
+获取修改用户的方式，调整为： 最近修改该文件的owner
+
+优先排查**项目代码**是否存在问题；若确认被测代码无异常，再逐一核查**测试用例**本身的问题。
