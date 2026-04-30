@@ -43,3 +43,5 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 
 1. 更新matrix 节点， 增加 lief-0.17.0 库
 2. pip install -U lief-0.17.0.dev0-cp310-cp310-linux_x86_64.whl
+
+优先看是不是项目代码是否有问题，如果被测代码没有问题，在开始检查是否是测试用例的问题。
