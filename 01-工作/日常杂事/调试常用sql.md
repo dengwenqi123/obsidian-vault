@@ -39,3 +39,7 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 1. 请问现在 AI 分析，pa
 
 仓库获取错误
+
+
+1. 更新matrix 节点， 增加 lief-0.17.0 库
+2. pip install -U lief-0.17.0.dev0-cp310-cp310-linux_x86_64.whl
