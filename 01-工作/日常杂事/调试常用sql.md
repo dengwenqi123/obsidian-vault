@@ -49,3 +49,4 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 获取修改用户的方式，调整为： 最近修改该文件的owner
 
 优先排查**项目代码**是否存在问题；若确认被测代码无异常，再逐一核查**测试用例**本身的问题。
+之前获取到的是仓库路径，不是具体的Gerrit仓库名称. 同时，获取Gerrit 仓库名称，一定要进入到
