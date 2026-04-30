@@ -50,3 +50,8 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 
 优先排查**项目代码**是否存在问题；若确认被测代码无异常，再逐一核查**测试用例**本身的问题。
 之前获取到的是仓库路径，不是具体的Gerrit仓库名称. 同时，获取Gerrit 仓库名称，一定要进入到修改文件的目录，再获取，因为存在仓库嵌套
+
+提单：
+1. crash 按照程序名
+2. 异常场景， 按照不同的类型的remark 配置
+3. 
