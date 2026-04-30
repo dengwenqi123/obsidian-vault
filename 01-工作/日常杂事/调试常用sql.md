@@ -54,4 +54,13 @@ git config --global --add safe.directory /tools/ai-agent-service/prompts
 提单：
 1. crash 按照程序名
 2. 异常场景， 按照不同的类型的remark 配置
-3. 
+
+不同的提单场景使用了不同的规则。其中circle 模块是看改到了哪个模块的文件对应的owner 是谁，就指派给他。
+
+crash 有三种场景
+1. crash 程序名提单
+2. remark 标签中不同的 异常类型， 指派给不同产品的首发。
+
+自动化用例提单
+1. 用例名称属于哪个团队
+2. 自动化测试异常，不同的异常类型
